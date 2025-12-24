@@ -2,7 +2,13 @@
 #include "mimate.h" // Tu librería propia
 
 int main() {
-    std::cout << "La suma es: " << sumar(10, 5) << std::endl;
+  int a;
+  int b;
+std::cout<<"Escribe un numero\n";
+  std::cin>>a;
+std::cout<<"Escribe otro numero\n";
+  std::cin>>b;
+   std::cout << "La resta es: " << restar(a, b) << std::endl;
     return 0;
 }
 
