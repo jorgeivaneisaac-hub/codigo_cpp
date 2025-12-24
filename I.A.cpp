@@ -23,10 +23,10 @@ int main() {
     }
 
     // Probar la IA
-    float test = 100.0;
+    float test = 200.0;
     float resultado = (test * peso) + sesgo;
     
-    std::cout << "IA entrenada. Prediccion para 100C: " << resultado << " F" << std::endl;
+    std::cout << "IA entrenada. Prediccion para 200C: " << resultado << " F" << std::endl;
     std::cout << "Peso aprendido: " << peso << " | Sesgo aprendido: " << sesgo << std::endl;
 
     return 0;
